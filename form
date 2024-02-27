@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+</head>
+<body> 
+    <link rel="stylesheet" href="/assets/js/bootstrap.min.js">
+    <link rel="stylesheet" href="/assets/js/jquery.js">
+
+
+    <h3 class="bg-success container display-4">Table in Bootstrap</h3>
+    <div class="table-responsive">
+    <table class="table container table-bordered table-hover table-striped border-warning text-center">
+       <thead>
+        <th class="bg-primary text-white">Name</th>
+        <th class="bg-primary text-white">Department</th>
+        <th class="bg-primary text-white">Clg</th>
+        <th class="bg-primary text-white">City</th>
+       </thead>
+       <tbody>
+        <tr>
+            <td>Sowmiya</td>
+            <td>ECE</td>
+            <td>KCT</td>
+            <td>Coimbatore</td>
+        </tr>
+        <tr>
+            <td>Sowmiya</td>
+            <td>ECE</td>
+            <td>KCT</td>
+            <td>Coimbatore</td>
+        </tr>
+        <tr>
+            <td class="text-danger table-danger">Sowmiya</td>
+            <td class="text-danger table-danger">ECE</td>
+            <td class="text-danger table-danger">KCT</td>
+            <td class="text-danger table-danger">Coimbatore</td>
+        </tr>
+        <tr>
+            <td>Sowmiya</td>
+            <td>ECE</td>
+            <td>KCT</td>
+            <td>Coimbatore</td>
+        </tr>
+        <tr>
+            <td>Sowmiya</td>
+            <td>ECE</td>
+            <td>KCT</td>
+            <td>Coimbatore</td>
+        </tr>
+        <tfoot>
+        <tr>
+            <td colspan="6">Total strength:5</td>
+            
+        </tr>
+        </tfoot>
+
+       </tbody>
+ 
+       
+      
+    </table>
+
+    </div>
+    <hr>
+    <h3>Picture</h3>
+    <div class="text-center">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj-t6hZT5S0udCl4NVj0H6TC15vI-1nyqPV5SKDB00luND7dOPbZX71dy4uF5n-5ifbx0&usqp=CAU" class="w-10  image-fluid rounded img-thumbnail">
+    </div>
+</body>
+</html> 
